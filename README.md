@@ -6,3 +6,14 @@ Time is money; this adage is well-understood in industry. Your clients want quot
 * Quote and charge them the average, on the expectation that for some projects you'll lose money, and for others, you'll gain.
 
 ... but that decision is another project entirely. :) 
+
+## Exploratory Data Analysis 1: Looking at someone else's summary 
+There's really no point in me making my own initial reports on the structure and distribution of the data, since many people on kaggle have already put together intial analytics displays. For example, I'm using the PowerBI display here (https://app.powerbi.com/view?r=eyJrIjoiOTZkN2M5MzItNmNkZi00MTdmLThhMTgtMDAxY2Y3MGI4MjI5IiwidCI6IjMyNTNmZjdjLTI0NmMtNGFjNi05ZTE5LTEyYzc4ZGZjM2NjMSIsImMiOjl9) to get a sense of what data fields look like; thanks to Jason Rymer's Power BI report, I can see the data contains: 
+* The construction tasks all appear to take place within the British Iles, with many in the Republic of Ireland. 
+* Various project types: Civil, Data Centre, Defence, Hospital, Industrial, Pharmaceutical, Residential, Retail
+* Various categories of tasks and forms (this is administrative project data, rather than live, physical data), namely: Design, Project Management, Quality Assurance, Health and Safety, Site Management, and Subcontractor
+* As my focus is not on individual tasks, but on project time, I'm keen to note that projects in the PowerBI Exploratory Data Analysis report are helpfully named and numbered, e.g. "Civil Project 1," although this may have been data cleaning Jason Rymer produced and I will have to replicate for myself.
+* By filtering, I can see how many tasks were filed against each project, as well as against each category of project. For instance, Hospital projects had 189 tasks associated with their design team, and 1134 tasks associated with Health and Safety.
+* I can also see the dates provided in the PowerBI report run from January 2020 to October 2021, and are split between dates when forms were created, and dates when tasks were created. In the interest of my reporting question, I need to hope this data also provides some indication of overall project start and completion dates, even if that is something to extrapolate.
+
+## Exploratory Data Analysis 2: Examining the backing data for myself. 
